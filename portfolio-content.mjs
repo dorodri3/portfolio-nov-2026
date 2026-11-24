@@ -3,21 +3,21 @@ export const projects = [
     "slug": "mood",
     "title": "Mood",
     "category": "Mobile UX · Event discovery",
-    "role": "UX & interface design",
-    "format": "Low-fidelity wireframes and visual prototype",
-    "summary": "From “what’s on?” to a ticket in hand: an event discovery and booking app.",
-    "deck": "I designed Mood to connect the decisions around a night out: finding an event, choosing tickets, and knowing where to find them afterward.",
+    "role": "UX design and prototyping",
+    "format": "Low- and mid-fidelity wireframes, high-fidelity prototype",
+    "summary": "A mobile booking prototype that takes people from browsing events to finding their ticket at the venue.",
+    "deck": "I designed Mood around a night out. The app helps people find an event that fits their plans, book a ticket, and pull it up when they arrive.",
     "cover": [
       "mood-home",
       "mood-events",
       "mood-tickets"
     ],
     "tone": "purple",
-    "overview": "An event listing is only the start of the task. Someone still needs to decide whether it fits their plans, choose tickets, check out, and retrieve the booking. I worked through that whole journey in Figma, starting with low-fidelity screens and developing a visual prototype.",
+    "overview": "I worked from guidelines my instructor provided for a mock client. In low fidelity, I mapped the path from browsing to checkout and ticket retrieval. I used mid-fidelity wireframes to refine what information and actions belonged on each screen before building the full prototype in Figma.",
     "sections": [
       {
-        "title": "Map the whole trip through the app",
-        "text": "I started with the sequence of decisions: browse events, narrow the choices, open an event, select tickets, and check out. Including confirmation, account, and ticket screens early helped me consider what happens after the transaction, too. The wireframes establish those connections before introducing imagery and color.",
+        "title": "Start with the booking flow",
+        "text": "I sketched the main path first, from finding an event to choosing tickets and checking out. I put confirmation and saved tickets into the wireframes early so I could see how someone would get back to their booking later.",
         "images": [
           [
             "mood-low-events",
@@ -34,8 +34,8 @@ export const projects = [
         ]
       },
       {
-        "title": "Show people what they’ve filtered",
-        "text": "The early filter screen uses days of the week. In the developed prototype, a date range, genre, and venue give the search more specific boundaries. Applied filter chips carry those choices back to the results screen, so people can see why they’re getting that set of events. Event imagery provides a second way to scan the listings.",
+        "title": "Keep active filters visible",
+        "text": "My first filter screen used days of the week. In the later prototype, I added a date range, genre, and venue so someone could search around a real plan. I kept the active filters visible as chips on the results screen so people could see what was narrowing the list without reopening the filter panel.",
         "images": [
           [
             "mood-home",
@@ -56,8 +56,8 @@ export const projects = [
         ]
       },
       {
-        "title": "Give the booking a clear ending",
-        "text": "The design continues past payment to confirmation and a dedicated ticket screen. I also included an empty account state for someone who hasn’t made a booking yet. These states matter because a successful purchase still leaves a practical question: where is my ticket when I need it?",
+        "title": "Make the ticket easy to find later",
+        "text": "I designed a purchase confirmation and a dedicated Tickets screen for the moment someone needs to show their ticket. I also included an empty account state for people who haven’t booked yet, so the prototype covers both first-time and returning use.",
         "images": [
           [
             "mood-detail",
@@ -82,27 +82,27 @@ export const projects = [
         ]
       }
     ],
-    "outcome": "The result is a connected event-booking prototype, developed from low-fidelity wireframes. The next thing I’d test is whether a first-time user can apply a filter, buy a ticket, and find it again without help. I’d pay particular attention to whether the applied filters are noticeable and the confirmation makes the next step clear.",
-    "source": "Individual academic concept · Figma wireframes and visual prototype. The screens show design work; usability testing is a proposed next step.",
-    "focus": "Keep browsing, filtering, and booking connected, with a clear destination for purchased tickets."
+    "outcome": "The prototype gave me a way to review the whole journey as one experience. If I ran a usability test, I’d ask someone to find an event for a specific date, book a ticket, then leave the confirmation screen and find their ticket again. I’d watch for hesitation at the filters and check where they go first to look for the ticket.",
+    "source": "Individual academic project · Simulated client brief · Figma prototype",
+    "focus": "Translate a project brief into a complete booking flow, including what happens after checkout."
   },
   {
     "slug": "bakery",
     "title": "Rose Family Bakery POS",
     "category": "Product UX · Tablet ordering",
-    "role": "UX & wireframe design",
-    "format": "Low- and mid-fidelity tablet interfaces",
-    "summary": "A tablet ordering flow that keeps custom cake details and the running order in view.",
-    "deck": "I designed a bakery point-of-sale concept around a detailed task: helping staff take a custom order without losing track of the choices already made.",
+    "role": "UX design and wireframing",
+    "format": "Low- and mid-fidelity tablet wireframes",
+    "summary": "A tablet point-of-sale flow for taking, checking, and charging for custom cake orders.",
+    "deck": "Taking a custom cake order is a conversation. I designed a tablet workflow that lets staff keep track of the details while they talk with the customer.",
     "cover": [
       "bakery-low-dashboard"
     ],
     "tone": "peach",
-    "overview": "A custom bakery order involves more than choosing a product. Staff need to capture the cake options, a message, the order timing, and payment details. I explored that process in low- and mid-fidelity tablet wireframes, using a staged flow and a persistent order summary to hold the information together.",
+    "overview": "At the counter, someone has to confirm the date, pick the cake options, get the message right, and explain the price. I used low- and mid-fidelity wireframes to work out when staff need each piece of information and what they should be able to see as the order takes shape.",
     "sections": [
       {
-        "title": "Separate the decisions into steps",
-        "text": "The low-fidelity flow moves through setup, products, review, customer and payment information, and confirmation. Order timing is part of the task: the concept requires at least 48 hours’ notice and allows scheduling up to 60 days ahead. Putting setup before product customization gives those constraints a place in the flow.",
+        "title": "Check the date before customizing the cake",
+        "text": "The bakery brief calls for at least 48 hours’ notice and allows orders up to 60 days ahead. I put scheduling before product selection so staff can confirm the pickup date before spending time talking through flavors, sizes, and decorations.",
         "images": [
           [
             "bakery-low-dashboard",
@@ -115,8 +115,8 @@ export const projects = [
         ]
       },
       {
-        "title": "Keep the current order beside the choices",
-        "text": "The mid-fidelity screens develop the product categories and cake options: size, flavor, theme, quantity, and a message of up to 50 characters. The current order remains alongside these controls. That layout is intended to let staff check what’s already included without leaving the customization step.",
+        "title": "Keep the running order in view",
+        "text": "While staff enter size, flavor, theme, quantity, and a message of up to 50 characters, the current order stays beside the options. If a customer asks what they’ve already chosen, staff can check the summary without leaving the screen.",
         "images": [
           [
             "bakery-order-type",
@@ -133,8 +133,8 @@ export const projects = [
         ]
       },
       {
-        "title": "Make corrections possible before payment",
-        "text": "The review step brings items, edit and remove actions, subtotal, delivery, and total together. It provides a deliberate pause before payment, when a staff member can check the order with the customer. The low- and mid-fidelity screens below show how that hierarchy developed, followed by the confirmation state.",
+        "title": "Give staff a chance to catch mistakes",
+        "text": "I gave order review its own step before payment. Staff can read the details back to the customer, change or remove an item, and explain the subtotal, delivery charge, and total while there’s still time to make a correction.",
         "images": [
           [
             "bakery-low-review",
@@ -151,28 +151,28 @@ export const projects = [
         ]
       }
     ],
-    "outcome": "This work turns a detailed ordering task into a sequence of decisions with a visible running summary. The next step would be to test it with bakery staff: can they change a cake option, explain the total, and catch an incorrect date before payment? That would help determine whether the staged flow suits a real counter conversation.",
-    "source": "Individual academic concept · Low- and mid-fidelity Figma wireframes. Product-image placeholders are intentional at this stage.",
-    "focus": "Break a complex order into manageable steps while keeping its details and total visible."
+    "outcome": "The wireframes show how the scheduling rules, running order, and review step fit together. I’d test the flow with bakery staff using an order that needs a changed cake option and an earlier pickup date. I’d watch whether they spot the timing issue and can correct the order without losing the details they already entered.",
+    "source": "Individual academic project · Low- and mid-fidelity Figma wireframes",
+    "focus": "Turn bakery rules into a workflow staff can follow during a conversation."
   },
   {
     "slug": "art-history",
     "title": "Journey Through Design",
-    "category": "Collaborative UX · Art history",
-    "role": "Contributing designer & usability testing",
-    "format": "Team design system and interactive prototype",
-    "summary": "A team art-history experience, with testing that exposed unclear return paths and filters.",
-    "deck": "Working with GIT 540 Team 9, I contributed to an art-history experience that helps people move from a broad timeline to artists and individual works.",
+    "category": "Team UX project · Art discovery",
+    "role": "Design contributor and usability tester",
+    "format": "Wireframes, shared design system, and interactive prototype",
+    "summary": "My first team design project, an art discovery app we took from wireframes to a full prototype.",
+    "deck": "Journey Through Design was my first time designing a product with a team. We built an art discovery app that connects design movements, artists, and their work.",
     "cover": [
       "art-history-home"
     ],
     "tone": "blue",
-    "overview": "Journey Through Design offers several starting points: a historical timeline, a search, or a filtered collection. The challenge is to connect those routes so exploring one artist or artwork doesn’t become a dead end. Our team developed wireframes, a shared design system, an interactive prototype, and usability-testing materials.",
-    "credit": "I contributed to the design and usability testing as part of GIT 540 Team 9. The interface screens are shared team work; the testing observations discussed here come from my notes in the project.",
+    "overview": "One person might come to learn about a period. Someone else might already know the name of an artist. Our team designed for both kinds of exploration, starting with low-fidelity wireframes, refining the screens at mid fidelity, and building a full interactive prototype in Figma.",
+    "credit": "I contributed to the design and ran usability testing as part of GIT 540 Team 9. The screens and design system are shared team work. The session notes shown here are from testing I conducted.",
     "sections": [
       {
-        "title": "Offer more than one way into the collection",
-        "text": "A timeline suits someone exploring a period, while search supports someone with a subject in mind. Filters for time period, nationality, movement, and artist narrow the collection further. Artist and artwork pages connect these broad views to individual subjects. Together, those routes support both browsing and a more directed search.",
+        "title": "Design for browsing and searching",
+        "text": "We used a timeline for people who wanted to explore a period and search for people who had a name or subject in mind. Filters narrowed the collection. Since those routes could lead to the same artist or artwork, we also had to consider where someone would expect to go when they went back.",
         "images": [
           [
             "art-history-timeline",
@@ -185,8 +185,8 @@ export const projects = [
         ]
       },
       {
-        "title": "Look beyond whether a task was completed",
-        "text": "In my mid-fidelity testing notes, a participant completed the first task but did not always know how to return. They described “Going back” as confusing. Filter categories also prompted uncertainty. Task completion alone would have missed those moments; the observations point to clearer return paths and more understandable filter choices.",
+        "title": "Notice where people hesitate",
+        "text": "In a mid-fidelity test I ran, a participant completed the first task and still said “going back” was confusing. My notes also captured uncertainty around filters. Those moments gave us concrete things to review, including where to put return links and how to show that a filter had been applied.",
         "images": [
           [
             "art-history-testing-notes",
@@ -199,8 +199,8 @@ export const projects = [
         ]
       },
       {
-        "title": "Keep the experience consistent, then check it again",
-        "text": "The team’s shared typography, blue and red palette, navigation, and controls give the different page types a common language. My later notes record successful navigation through gallery, search, timeline filters, and artwork. That is encouraging feedback from those sessions, but I’d still retest the earlier navigation concerns with new participants before considering them resolved.",
+        "title": "Keep the screens consistent as a team",
+        "text": "We used shared type, color, navigation, and controls so the timeline, search, and detail pages would feel related as the prototype came together. In later sessions, I documented people successfully navigating the gallery, search, timeline filters, and artwork. I’d still revisit the earlier points of confusion in another round of testing.",
         "images": [
           [
             "art-history-typography",
@@ -221,58 +221,58 @@ export const projects = [
         ]
       }
     ],
-    "outcome": "The strongest lesson in this project is the gap between finishing a task and feeling confident along the way. My testing contribution helped make that distinction visible. In another iteration, I’d prioritize return navigation and filter labels, then use the same tasks to check whether the changes address the observed confusion.",
-    "source": "Collaborative academic project · GIT 540 Team 9. Interface and design-system screens represent the team’s work; testing notes identify my contributions.",
-    "focus": "Support open-ended exploration while helping people understand where they are and how to return."
+    "outcome": "Working with other designers taught me the value of shared patterns, especially when several screens have to feel like one experience. Testing taught me to look for hesitation even when someone finished a task. I’d retest the same browsing tasks with new participants and watch whether they can return to the previous view and tell which filters are active without help.",
+    "source": "Collaborative academic project · GIT 540 Team 9 · Figma",
+    "focus": "Work within a shared design system and bring usability observations back to the team."
   },
   {
     "slug": "ai-driving",
     "title": "AI Driving",
-    "category": "Senior project · Web design & development",
-    "role": "Website design & HTML/CSS development",
-    "format": "Complete four-page website concept",
-    "summary": "A four-page capstone website, taken from an HTML prototype to a working implementation.",
-    "deck": "For my senior project, I designed and built a website for a fictional autonomous-driving brand, bringing the page structure, visual design, and HTML/CSS implementation together.",
+    "category": "Capstone · Web design and development",
+    "role": "UX design and front-end development",
+    "format": "Four-page website and design process report",
+    "summary": "A capstone website for a fictional autonomous vehicle company, built to make its services easier to understand.",
+    "deck": "For my capstone, I designed and coded a website for a fictional autonomous vehicle company. I wanted to apply my UX and web design skills to an industry I’d like to work in.",
     "cover": [
       "/assets/ai-driving.png"
     ],
     "tone": "green",
-    "overview": "AI Driving was an opportunity to carry a website through both design and implementation. I organized the concept around Home, About, Services, and Contact, then developed the visual treatment around that structure. The complete website and my original process report are available below.",
+    "overview": "I got interested in automated vehicles by paying attention to how differently people make decisions on the road. I want to work on the part of vehicle automation people interact with. I’m curious about how we explain what the technology does, help people understand its limits, and make it easier to use in everyday life. For this project, I started with the website a person might visit to learn about the company and its services.",
     "sections": [
       {
-        "title": "Work out the structure before the styling",
-        "text": "I began with an HTML prototype before adding CSS. That gave me a way to work through navigation, button placement, and images while the structure was still easy to change. Separating Home, About, Services, and Contact also gave each page a specific job."
+        "title": "Define what each page needs to do",
+        "text": "I started with an HTML prototype so I could work through the navigation and decide where the calls to action and images belonged. Home introduces the company, About provides context, Services explains its offerings, and Contact gives interested visitors a clear next step."
       },
       {
-        "title": "Refine the site in the browser",
-        "text": "My process report documents checks on laptop, desktop, and mobile, followed by design refinements. I developed the darker blue and gray palette around the technology theme. Building the pages in HTML and CSS let me work with the actual layout and navigation rather than stopping at a static design."
+        "title": "Refine the layout in the browser",
+        "text": "I built the site in HTML and CSS and checked it on a laptop, desktop, and phone. Seeing it at different sizes helped me adjust how the navigation, text, and images fit together. I used a consistent blue and gray palette across the four pages."
       },
       {
-        "title": "Try the working website",
-        "text": "Open the complete site to move between all four pages. The three-page process report shows how I approached the prototype and visual refinements. The contact form is a demo, so trying it won’t send a message."
+        "title": "Explore the site and process report",
+        "text": "My capstone report covers the early HTML prototype, device checks, and visual refinements. You can try the navigation and contact form on the demo site. The form is for demonstration only."
       }
     ],
-    "outcome": "The finished deliverable is a working four-page website and a record of the design process behind it. My next iteration would focus on comprehension: after exploring the site, can someone explain the concept and find the relevant service? I’d pair that with a keyboard and contrast review of the implementation.",
-    "source": "Individual senior project · HTML and CSS. AI Driving is a fictional brand; its technology and performance statements are concept content.",
-    "focus": "Use a simple four-page structure to introduce the concept and make supporting information easy to find."
+    "outcome": "Building the site gave me practice turning an interest in vehicle automation into something people could explore. I’d test whether a first-time visitor can find a service and explain it in their own words. Longer term, I’d like to bring the same approach to onboarding and in-vehicle interfaces, where people need to know what an automated feature is doing and when it needs their attention.",
+    "source": "Individual capstone · HTML and CSS · Fictional autonomous vehicle company",
+    "focus": "Make a technical subject easier to explore through clear navigation and page structure."
   },
   {
     "slug": "loaded-accessibility",
     "title": "Loaded Accessibility Review",
     "category": "Accessibility · Interface analysis",
-    "role": "Accessibility review & annotation",
-    "format": "Annotated page reconstructions",
-    "summary": "An annotated accessibility review of the path from browsing to checkout.",
-    "deck": "I reviewed an e-commerce journey through five accessibility lenses, using annotated page reconstructions to make potential barriers easier to discuss.",
+    "role": "Accessibility review and annotation",
+    "format": "Annotated Figma reconstructions",
+    "summary": "An accessibility review that follows an online shopper from the homepage through checkout.",
+    "deck": "I recreated three pages from Loaded in Figma and marked specific places where shoppers could run into accessibility barriers.",
     "cover": [
       "loaded-homepage"
     ],
     "tone": "lime",
-    "overview": "A shopping flow needs to work across the homepage, product page, and checkout. I reconstructed these page types and used lettered annotations to organize potential accessibility issues. This makes the review traceable: each marker points to an element and a category in the legend.",
+    "overview": "I followed the shopping flow from the homepage to a product page and into checkout. I wanted each note to point to something a teammate could find on the screen, so I used lettered markers tied to a shared legend.",
     "sections": [
       {
-        "title": "Give each annotation a clear purpose",
-        "text": "The legend groups the review into contrast, alternative text, keyboard focus, form labels, and heading hierarchy. Using the same categories across pages makes it easier to compare patterns and see where further investigation is needed.",
+        "title": "Tie each concern to a specific element",
+        "text": "On each page I looked at contrast, alternative text, visible keyboard focus, form labels, and heading hierarchy. The shared legend makes it possible to find a concern and compare how the same type of element is handled elsewhere in the flow.",
         "images": [
           [
             "loaded-homepage",
@@ -285,8 +285,8 @@ export const projects = [
         ]
       },
       {
-        "title": "Follow the task into the form",
-        "text": "The review continues from browsing to product selection and checkout. At checkout, labels and focus become especially important: people need to understand what each field asks for and where they are as they move through it. The annotations identify what to inspect in the implemented page.",
+        "title": "Start the browser checks at checkout",
+        "text": "At checkout, a shopper needs to know what each field asks for and which control has focus. I marked those elements in the reconstruction so I could return to the corresponding page and check how the form actually behaves with a keyboard.",
         "images": [
           [
             "loaded-product",
@@ -299,28 +299,28 @@ export const projects = [
         ]
       }
     ],
-    "outcome": "The result is an organized starting point for an accessibility review. The next step is verification in the live implementation: measure contrast, inspect text alternatives and semantics, and walk through the task using a keyboard. A wireframe can flag a concern, but it cannot establish how the underlying code behaves.",
-    "source": "Independent academic review of loaded.com · Annotated Figma reconstructions. No client affiliation; this is a design review rather than a live-site compliance audit.",
-    "focus": "Connect accessibility concerns to specific elements and steps in a shopping task."
+    "outcome": "The annotated screens give a design or engineering teammate a place to start. I’d follow up in the browser by measuring contrast, checking headings and text alternatives, and navigating checkout using only a keyboard. Then I could turn any confirmed barriers into specific fixes and retest them.",
+    "source": "Independent academic design review of loaded.com · Figma reconstructions",
+    "focus": "Document where a barrier might occur and what to check in the browser."
   },
   {
     "slug": "phoenix",
     "title": "City of Phoenix",
     "category": "Responsive UX · Wireframe study",
-    "role": "Interface analysis & wireframe recreation",
-    "format": "Desktop and mobile page wireframes",
-    "summary": "A desktop and mobile wireframe study of a service-heavy city homepage.",
-    "deck": "I recreated the City of Phoenix homepage as desktop and mobile wireframes to study how a large amount of public information is organized across screen sizes.",
+    "role": "Responsive layout analysis and wireframing",
+    "format": "Desktop and mobile homepage wireframes",
+    "summary": "A wireframe study of how a city homepage organizes everyday services on desktop and mobile.",
+    "deck": "I recreated the City of Phoenix homepage at two screen sizes to see how it helps people find services amid city announcements, news, and resources.",
     "cover": [
       "phoenix-desktop",
       "phoenix-mobile"
     ],
     "tone": "sand",
-    "overview": "Residents, businesses, and visitors arrive at a city website with very different tasks. This study looks at how those needs sit together on one long page. Recreating the layouts in low fidelity let me focus on grouping, order, and screen space.",
+    "overview": "Someone who needs to report a problem is looking for something different from someone browsing local news. I recreated the homepage in low fidelity so I could compare how those tasks are grouped and what appears first on desktop and mobile.",
     "sections": [
       {
-        "title": "Separate immediate tasks from deeper information",
-        "text": "The desktop wireframe combines audience navigation, common service shortcuts, heat-relief information, news, and government resources. Actions such as paying, reporting an issue, and finding trash information have a different urgency from browsing city news. Reconstructing the page made those layers easier to examine.",
+        "title": "Find the shortcuts residents rely on",
+        "text": "On desktop, I looked at how the page groups tasks like paying a bill, reporting an issue, and finding trash pickup information. Those shortcuts sit alongside heat relief information, city news, and government resources. Redrawing the layout made it easier to see which tasks have a direct entry point.",
         "images": [
           [
             "phoenix-desktop",
@@ -330,8 +330,8 @@ export const projects = [
         "long": true
       },
       {
-        "title": "Study what changes when the page narrows",
-        "text": "The mobile version is 390 px wide, compared with 1440 px on desktop. With less room for content side by side, grouping and reading order become more prominent. Scroll through the wireframes or enlarge them to compare how the page is arranged at each size.",
+        "title": "Compare what comes first on mobile",
+        "text": "I compared a 1440 px desktop layout with a 390 px mobile layout. On a narrow screen, more of the content has to stack vertically, so the order of the sections plays a bigger role in what people find before they scroll.",
         "images": [
           [
             "phoenix-mobile",
@@ -341,8 +341,8 @@ export const projects = [
         "long": true
       }
     ],
-    "outcome": "This is a study in responsive structure and information hierarchy. If I extended it into a redesign, I’d first identify the most common resident tasks and test how quickly people can locate them on mobile. That evidence would help determine what deserves priority, rather than rearranging the page on visual preference alone.",
-    "source": "Independent academic recreation of the City of Phoenix website · Desktop and mobile Figma wireframes. This was a study, not commissioned city work.",
-    "focus": "Understand how service shortcuts, news, and city resources share one page without losing their hierarchy."
+    "outcome": "The two layouts make it easier to compare what residents see first at each width. If I took this into a redesign, I’d test a few common mobile tasks, such as reporting a problem or finding heat relief, and watch where people look first. That would give the team a basis for deciding which shortcuts should move up.",
+    "source": "Independent academic recreation of the City of Phoenix homepage · Desktop and mobile Figma wireframes",
+    "focus": "Use wireframes to discuss which services should be easiest to find across screen sizes."
   }
 ];
